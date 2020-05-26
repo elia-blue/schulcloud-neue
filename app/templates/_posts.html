@@ -1,0 +1,14 @@
+<div class="posts">
+{% for post in posts %}
+    <div class="post">
+        <div class="post-content">
+            <p>
+            {{ post.content }}
+            </p>
+        </div>
+        <div class="post-footer">
+            {{ post.author }} at {{ post.time }}
+        </div>
+    </div>
+{% endfor %}
+</div>

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import "nav.css";
+@import "posts.css";
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+body {
+    /* General Body customisation */
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+}
+
